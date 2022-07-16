@@ -1,0 +1,88 @@
+.backgrnd{
+   background-image: linear-gradient(to left,black,white,black);
+   /* background-image: url("image3.jpg"); */
+   /* height: 40vh */
+}
+
+.img{
+    height: 450px;
+    padding-left: 18rem;
+}
+
+
+#num1{
+    margin-top: 3rem;
+    margin-left: 25rem;
+
+}
+
+#num1:hover{
+    transform: scale(1.1);
+    cursor: pointer; 
+    color: green;
+    background-color:gray;
+}
+
+#operator:hover{
+    color:green;
+    transform: scale(1.3);
+    cursor: pointer;
+    background-color:gray; 
+}
+
+#num2:hover{
+    color: green;
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color:gray; 
+}
+
+#res:hover{
+    color: green;
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color:gray; 
+}
+
+#result{
+    margin-left: 36rem;
+    margin-top: 3rem;
+    color: coral;
+    font-weight:500;
+    font-size: large;
+}
+
+#result:hover{
+    color: green;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#changebtn{
+    margin-left: 36rem;
+}
+
+#changebtn:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.text{
+    margin-left: 38rem;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.text:hover{
+    color: green;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.active{
+    /* color: red; */
+    /* font-weight: 100; */
+    font-size:x-large;
+    font-style: italic;
+}
+
